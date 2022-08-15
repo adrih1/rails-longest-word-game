@@ -13,3 +13,40 @@
  *= require_tree .
  *= require_self
  */
+
+.new_game{
+  margin-left: 10px;
+}
+
+.letters{
+  margin-left: 10px;
+  letter-spacing: 20px;
+  font-size: 20px;
+}
+
+p{
+  margin-left: 10px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.form{
+  margin-left: 10px;
+}
+
+.input{
+  height: 35px;
+  width: 200px;
+  padding: 0px 5px;
+}
+.play{
+  border: 0.8px solid rgba(172, 172, 172, 0.851);
+  border-radius: 0px 5px 5px 0px;
+  padding: 10px;
+}
+
+.play:hover{
+  cursor: pointer;
+  background-color: rgb(208, 207, 207) ;
+  transition: 0.5s ease;
+}
